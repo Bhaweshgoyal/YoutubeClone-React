@@ -15,8 +15,17 @@ function VideoCard({
     setisClicked(true);
   }
 
+  function handelHover() {
+    setisClicked(!isClicked);
+  }
+
   return (
-    <div className="videoCard" onClick={handelClick}>
+    <div
+      className="videoCard"
+      onClick={handelClick}
+      onMouseOver={handelClick}
+      onMouseOut={handelHover}
+    >
       {isClicked ? (
         <iframe
           width={250}
@@ -26,9 +35,15 @@ function VideoCard({
           frameborder="0"
           title="myFrame"
           allowFullScreen
+          loading="lazy"
         ></iframe>
       ) : (
-        <img className="videoCard_thumbnail" src={image} alt="" />
+        <img
+          className="videoCard_thumbnail"
+          loading="lazy"
+          src={image}
+          alt=""
+        />
       )}
       <div className="video_info">
         <Avatar className="videoCard_avatar" alt={channel} src={channelImg} />
