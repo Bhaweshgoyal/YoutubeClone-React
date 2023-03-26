@@ -1,4 +1,5 @@
 .videoCard {
+    background-color: revert;
   width: 270px;
   margin-bottom: 40px;
   cursor: pointer;
