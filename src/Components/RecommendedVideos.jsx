@@ -13,7 +13,7 @@ function RecommendedVideos() {
           views="2.7M Views"
           timestamp="3 days ago"
           channel="holi-Est"
-          VideoSrc="https://www.youtube.com/embed/i2m7dY47EB8"
+          VideoSrc="https://www.youtube.com/embed/i2m7dY47EB8?autoplay=1"
           image="https://i.ytimg.com/vi/i2m7dY47EB8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVTzGU7uZMpT0vTttY7O8T1IJA7Q"
         />
         <VideoCard
@@ -22,7 +22,7 @@ function RecommendedVideos() {
           views="3M Views"
           timestamp="3 days ago"
           channel="Vilan Muzik"
-          VideoSrc="https://www.youtube.com/embed/CHyA3pp4G_Y"
+          VideoSrc="https://www.youtube.com/embed/CHyA3pp4G_Y?autoplay=1"
           image="https://i.ytimg.com/vi/CHyA3pp4G_Y/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARh_IEYoKDAP&rs=AOn4CLCmDVh0kwuafL09_kM73aRss-9Dbg"
         />
         <VideoCard
@@ -31,7 +31,7 @@ function RecommendedVideos() {
           views="7M Views"
           timestamp="3 days ago"
           channel="VYRL Haryanvi"
-          VideoSrc="https://www.youtube.com/embed/jXF0sYVu4Nw"
+          VideoSrc="https://www.youtube.com/embed/jXF0sYVu4Nw?autoplay=1"
           image="https://i.ytimg.com/vi/jXF0sYVu4Nw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUs27V3n4r5sZKwRkgNHoYd-QVZA"
         />
         <VideoCard
@@ -40,7 +40,7 @@ function RecommendedVideos() {
           views="17M Views"
           timestamp="3 days ago"
           channel="SHUB"
-          VideoSrc="https://www.youtube.com/embed/JcxVoV1ah78"
+          VideoSrc="https://www.youtube.com/embed/JcxVoV1ah78?autoplay=1"
           image="https://i.ytimg.com/vi/JcxVoV1ah78/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWMcxNZEaPj0Of5vKXtKWLXh-8jw"
         />
         <VideoCard
@@ -49,7 +49,7 @@ function RecommendedVideos() {
           views="25M Views"
           timestamp="3 days ago"
           channel="Endorphin"
-          VideoSrc="https://www.youtube.com/embed/N14_XNH8Mqs"
+          VideoSrc="https://www.youtube.com/embed/N14_XNH8Mqs?autoplay=1"
           image="https://i.ytimg.com/vi/N14_XNH8Mqs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAjpJ3yp-1jYUoJG3pQ7pviaKwY0g"
         />
         <VideoCard
@@ -58,7 +58,7 @@ function RecommendedVideos() {
           views="782K Views"
           timestamp="3 days ago"
           channel="KaanPhod Music"
-          VideoSrc="https://www.youtube.com/embed/R8OFOURSZZA"
+          VideoSrc="https://www.youtube.com/embed/R8OFOURSZZA?autoplay=1"
           image="https://i.ytimg.com/vi/R8OFOURSZZA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmZW_ENJJbx-CGUAOz4bhxPl6inQ"
         />
         <VideoCard
@@ -67,7 +67,7 @@ function RecommendedVideos() {
           views="2M Views"
           timestamp="3 days ago"
           channel="J STAR Productions"
-          VideoSrc="https://www.youtube.com/embed/mWZ6b_I-Djg"
+          VideoSrc="https://www.youtube.com/embed/mWZ6b_I-Djg?autoplay=1"
           image="https://i.ytimg.com/vi/mWZ6b_I-Djg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmUQOB4J5yrrs_rfSKTG075cLnvA"
         />
         <VideoCard
@@ -76,7 +76,7 @@ function RecommendedVideos() {
           views="7M Views"
           timestamp="3 days ago"
           channel="𝙈𝙞𝙣𝙚𝙮𝙮"
-          VideoSrc="https://www.youtube.com/embed/Izts-ynjwxg"
+          VideoSrc="https://www.youtube.com/embed/Izts-ynjwxg?autoplay=1"
           image="https://i.ytimg.com/vi/Izts-ynjwxg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9JUnXHWMAM_-VmBy8JWpTOBOyPQ"
         />
         <VideoCard
@@ -85,7 +85,7 @@ function RecommendedVideos() {
           views="9M Views"
           timestamp="3 days ago"
           channel="Maverick Reverbz"
-          VideoSrc="https://www.youtube.com/embed/vdMPP47nLhc"
+          VideoSrc="https://www.youtube.com/embed/vdMPP47nLhc?autoplay=1"
           image="https://i.ytimg.com/an_webp/vdMPP47nLhc/mqdefault_6s.webp?du=3000&sqp=CNKG_6AG&rs=AOn4CLAB4ns7N5CeDBGa6sHEiioYH40Tcw"
         />
         <VideoCard
@@ -94,7 +94,7 @@ function RecommendedVideos() {
           views="211M Views"
           timestamp="3 days ago"
           channel="Pradabae"
-          VideoSrc="https://www.youtube.com/embed/KUM4AECEcUA"
+          VideoSrc="https://www.youtube.com/embed/KUM4AECEcUA?autoplay=1"
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHakb6cJhUAxIps07SRn8HAZjSUouskpgHaw&usqp=CAU"
         />
       </div>

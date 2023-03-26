@@ -21,9 +21,10 @@ function VideoCard({
         <iframe
           width={250}
           height={170}
-          src={`${VideoSrc}` + "?autoplay=1"}
+          src={`${VideoSrc}`}
           allow="autoplay"
           frameborder="0"
+          title="myFrame"
           allowFullScreen
         ></iframe>
       ) : (
