@@ -10,7 +10,6 @@
   border-radius: 10px;
 }
 .videoCard iframe {
-  transition-duration: 1.7s;
   cursor: pointer;
 }
 
