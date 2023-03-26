@@ -25,6 +25,7 @@ function VideoCard({
       onClick={handelClick}
       onMouseOver={handelClick}
       onMouseOut={handelHover}
+      fallback={<div>Loading...</div>}
     >
       {isClicked ? (
         <iframe
@@ -33,17 +34,12 @@ function VideoCard({
           src={`${VideoSrc}`}
           allow="autoplay"
           frameborder="0"
-          title="myFrame"
+          title={title}
           allowFullScreen
           loading="lazy"
         ></iframe>
       ) : (
-        <img
-          className="videoCard_thumbnail"
-          loading="lazy"
-          src={image}
-          alt=""
-        />
+        <img className="videoCard_thumbnail" src={image} alt="" />
       )}
       <div className="video_info">
         <Avatar className="videoCard_avatar" alt={channel} src={channelImg} />
