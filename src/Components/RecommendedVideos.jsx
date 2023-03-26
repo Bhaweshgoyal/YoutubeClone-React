@@ -13,7 +13,7 @@ function RecommendedVideos() {
           views="2.7M Views"
           timestamp="3 days ago"
           channel="holi-Est"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7I2GFuMlEPNj6yCZ7so15AKrqVT3w3bh2w&usqp=CAU"
+          image="https://i.ytimg.com/vi/i2m7dY47EB8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVTzGU7uZMpT0vTttY7O8T1IJA7Q"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/b9BV7VRaPtkrzll-8eMkDieZQKgYxpH7cWVmj1ZTm8IuA7SNMH7crBNJCE2A2c7WQP13Gd-r=s68-c-k-c0x00ffffff-no-rj"
@@ -21,7 +21,7 @@ function RecommendedVideos() {
           views="3M Views"
           timestamp="3 days ago"
           channel="Vilan Muzik"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc6CwdDrZaNwUVhH85C-clVH9ZdzZ7TgVWzg&usqp=CAU"
+          image="https://i.ytimg.com/vi/CHyA3pp4G_Y/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARh_IEYoKDAP&rs=AOn4CLCmDVh0kwuafL09_kM73aRss-9Dbg"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/5IhVZsdGrIyCwg3u0ro6MyX4zICtrUkaefm54ak7pm9RSbXCMI3xNkHb9FMULjvtC0LuXjUwF1g=s68-c-k-c0x00ffffff-no-rj"
@@ -29,7 +29,7 @@ function RecommendedVideos() {
           views="7M Views"
           timestamp="3 days ago"
           channel="VYRL Haryanvi"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnMw_wEJ7JNlVWvo-9SJUuxunMTBey9nzCxg&usqp=CAU"
+          image="https://i.ytimg.com/vi/jXF0sYVu4Nw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUs27V3n4r5sZKwRkgNHoYd-QVZA"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/6SOU4Foz63Vce3hHDaQzs2fY_jUpPPptq_huFv6nw6tsSH5QC-Y2lwmho43O2vsIBy6MViDt2g=s68-c-k-c0x00ffffff-no-rj"
@@ -37,7 +37,7 @@ function RecommendedVideos() {
           views="17M Views"
           timestamp="3 days ago"
           channel="SHUB"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfG_FNEFWncVbWeMVEsktrZPYnnvn5Avfrqg&usqp=CAU"
+          image="https://i.ytimg.com/vi/JcxVoV1ah78/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWMcxNZEaPj0Of5vKXtKWLXh-8jw"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/ytc/AL5GRJX7LBvNaQFl0ODpVbrt2F4ajG_wY0fKpZGsEqi8Jw=s68-c-k-c0x00ffffff-no-rj"
@@ -45,7 +45,7 @@ function RecommendedVideos() {
           views="25M Views"
           timestamp="3 days ago"
           channel="Endorphin"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1icffhfdhGSL6dJq34vExHveEiqRSg3jd2Q&usqp=CAU"
+          image="https://i.ytimg.com/vi/N14_XNH8Mqs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAjpJ3yp-1jYUoJG3pQ7pviaKwY0g"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/w7sLANpF1z0o1eiZTmEtpEC413EtIpbCnEcDD9K6Pvqzl5452ZK2b6DDkieOye8ppbuacD3VpA=s68-c-k-c0x00ffffff-no-rj"
@@ -53,7 +53,7 @@ function RecommendedVideos() {
           views="782K Views"
           timestamp="3 days ago"
           channel="KaanPhod Music"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkNz4oS1IjhtD3sGvzoPBfH-5BkKg2HC5IUA&usqp=CAU"
+          image="https://i.ytimg.com/vi/R8OFOURSZZA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmZW_ENJJbx-CGUAOz4bhxPl6inQ"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/uL8rBwx21i0bDbhNXqME-gQ_qHNNgDnW-vQ_mtJPDdvZNPABkPaosCggQ4iGWWh_S9comNbftlk=s68-c-k-c0x00ffffff-no-rj"
@@ -61,7 +61,7 @@ function RecommendedVideos() {
           views="2M Views"
           timestamp="3 days ago"
           channel="J STAR Productions"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGzVo0tS5NX7wT580sIEEgOQnK1rjwF1_sQg&usqp=CAU"
+          image="https://i.ytimg.com/vi/mWZ6b_I-Djg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmUQOB4J5yrrs_rfSKTG075cLnvA"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/E3IJIYRdtoNK5YiGxfuBdwitgr3eFVWuWrmG_T-smqVc_0Ve789BfSrnJT9NCwJCV57GQh5z8QM=s68-c-k-c0x00ffffff-no-rj"
@@ -69,7 +69,7 @@ function RecommendedVideos() {
           views="7M Views"
           timestamp="3 days ago"
           channel="𝙈𝙞𝙣𝙚𝙮𝙮"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_RWgMzwvjUO8hQxiQ3kTuH-je9PJBZQFbgg&usqp=CAU"
+          image="https://i.ytimg.com/vi/Izts-ynjwxg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9JUnXHWMAM_-VmBy8JWpTOBOyPQ"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/1i_X6Ixs7JXvy20ZjkQBtVkWJfXp7Aw-GFKWoNw_cMROm9_XMNaacsilxvVEG-7vgNyjao6AOA=s68-c-k-c0x00ffffff-no-rj"
@@ -77,7 +77,7 @@ function RecommendedVideos() {
           views="9M Views"
           timestamp="3 days ago"
           channel="Maverick Reverbz"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6fLdPU5cppsS3izlWbmDRvzJm9O_DiSN9Q&usqp=CAU"
+          image="https://i.ytimg.com/an_webp/vdMPP47nLhc/mqdefault_6s.webp?du=3000&sqp=CNKG_6AG&rs=AOn4CLAB4ns7N5CeDBGa6sHEiioYH40Tcw"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/ytc/AL5GRJXoWnTXp_oljCbsD07kYmc6Vktj3J0Vs64ALooxgA=s48-c-k-c0x00ffffff-no-rj"
