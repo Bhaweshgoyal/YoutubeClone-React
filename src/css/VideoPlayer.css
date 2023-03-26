@@ -1,0 +1,33 @@
+.videoPlayer  {
+    display: flex;
+    flex: 0.2;
+}
+
+.videoFrame { 
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.videoPlayer_iframe{
+    flex: 0.8;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: end;
+}
+.videoPlayer_iframe iframe {
+    margin-left: 10%;
+    padding: 1%;
+    border-radius: 30px;
+    object-fit: contain;
+}
+.videoPlayer_list{
+    flex: 0.2;
+}
+.videoPlayer_info {
+ height: 100px;
+ /* align-items: center; */
+ 
+ border: 1px solid green;
+}

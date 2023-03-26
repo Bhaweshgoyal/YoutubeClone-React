@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
 import Headers from "./Components/Headers";
-import SearchPage from "./Components/SearchPage"
+import SearchPage from "./Components/SearchPage";
 import RecommendedVideos from "./Components/RecommendedVideos";
 import Sidebar from "./Components/Sidebar";
+import Videoplayer from "./Components/Videoplayer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -13,12 +14,20 @@ function App() {
         <Routes>
           <Route>
             <Route
+              path="/youtube/:clickedVideo"
+              element={
+                <div className="app_page">
+                  <Videoplayer />
+                </div>
+              }
+            />
+            <Route
               path="/search/:searchTerm"
               element={
                 <div className="app_page">
-                <Sidebar />
-                <SearchPage/>
-              </div>
+                  <Sidebar />
+                  <SearchPage />
+                </div>
               }
             />
             <Route

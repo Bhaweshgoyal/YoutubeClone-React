@@ -1,12 +1,12 @@
 .videoCard {
-    background-color: revert;
+  background-color: revert;
   width: 270px;
   margin-bottom: 40px;
   cursor: pointer;
   padding: 1%;
 }
 .videoCard img {
-    width: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 .videoCard iframe {
