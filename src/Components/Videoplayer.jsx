@@ -18,6 +18,7 @@ function Videoplayer() {
             src={`${VideoSrc}`}
             allow="autoplay"
             frameBorder="0"
+            title={data.state.data.title}
             allowFullScreen
           ></iframe>
         </div>
