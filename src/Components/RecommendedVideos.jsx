@@ -86,7 +86,7 @@ function RecommendedVideos() {
           timestamp="3 days ago"
           channel="Maverick Reverbz"
           VideoSrc="https://www.youtube.com/embed/vdMPP47nLhc?autoplay=1"
-          image="https://i.ytimg.com/an_webp/vdMPP47nLhc/mqdefault_6s.webp?du=3000&sqp=CNKG_6AG&rs=AOn4CLAB4ns7N5CeDBGa6sHEiioYH40Tcw"
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgHEac9FXGp7sFbHi4VR-olW-5w36lZsepA&usqp=CAU"
         />
         <VideoCard
           channelImg="https://yt3.ggpht.com/ytc/AL5GRJXoWnTXp_oljCbsD07kYmc6Vktj3J0Vs64ALooxgA=s48-c-k-c0x00ffffff-no-rj"
