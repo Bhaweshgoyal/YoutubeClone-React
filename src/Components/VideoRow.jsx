@@ -11,13 +11,13 @@ function VideoRow({
 }) {
   return (
     <div className="VideoRow">
-      <img src={image} alt="" />
+      <img src={image} alt="hello " />
       <div className="videoRow_text">
         <h3>{title}</h3>
-        <p>
+        <p className="videoRow_headline">
           {channel} &#8226; {subs} Subscribers {views} &#8226; {timestamp}
         </p>
-        <p>
+        <p className="videoRow_description">
             {description}
         </p>
       </div>

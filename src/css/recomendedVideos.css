@@ -1,6 +1,5 @@
 .recommendedVideos {
     flex: 0.8;
-    /* border: 1px solid black;  */
     background-color: whitesmoke;
     padding: 40px 20px;
     padding-bottom: 0;
@@ -12,6 +11,7 @@
 }
 
 .recommendedVideos_video {
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
 }

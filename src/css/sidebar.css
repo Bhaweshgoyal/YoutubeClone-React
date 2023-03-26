@@ -1,5 +1,9 @@
 .sidebar {
   flex: 0.2;
+  position: sticky;
+  top: 101px ;
+  height: 100%;
+  z-index: 99;
 }
 
 .sidebar > hr {
