@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import VideoCard from "./VideoCard";
 import "../css/recomendedVideos.css";
 import video1 from "../videoComponent/video1.mp4";
