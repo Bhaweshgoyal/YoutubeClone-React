@@ -2,6 +2,7 @@ import { Avatar } from "@mui/material";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/VideoCards.css";
+
 function VideoCard({
   VideoSrc,
   subs,
@@ -11,6 +12,7 @@ function VideoCard({
   views,
   timestamp,
   channelImg,
+  thumbnailVideo
 }) {
   const [isClicked, setisClicked] = useState(false);
   function handelClick() {
@@ -36,16 +38,7 @@ function VideoCard({
         style={{ textDecoration: "none", color: "black" }}
       >
         {isClicked ? (
-          <iframe
-            width={250}
-            height={170}
-            src={`${VideoSrc}`}
-            allow="autoplay"
-            frameBorder="0"
-            title={title}
-            allowFullScreen
-            loading="lazy"
-          ></iframe>
+          <video src={thumbnailVideo} width={250} height={170} controls autoPlay muted />
         ) : (
           <img className="videoCard_thumbnail" src={image} alt="" />
         )}
