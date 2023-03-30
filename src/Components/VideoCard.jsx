@@ -38,7 +38,7 @@ function VideoCard({
         style={{ textDecoration: "none", color: "black" }}
       >
         {isClicked ? (
-          <video src={thumbnailVideo} width={250} height={170} controls autoPlay muted />
+          <video src={thumbnailVideo} width={250} height={190}  autoPlay muted />
         ) : (
           <img className="videoCard_thumbnail" src={image} alt="" />
         )}

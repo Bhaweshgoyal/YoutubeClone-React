@@ -1,15 +1,22 @@
 .videoCard {
   background-color: revert;
   width: 270px;
+  margin: 1%;
+  border-radius: 10px;
   margin-bottom: 40px;
   cursor: pointer;
   padding: 1%;
+  box-shadow: 0 0 16px rgb(202 211 227 / 60%);
+}
+.videoCard video {
+  pointer-events: none;
+  transition-delay: 0.7s;
 }
 .videoCard img {
   width: 100%;
   border-radius: 10px;
 }
-.videoCard iframe {
+.videoCard video {
   cursor: pointer;
 }
 

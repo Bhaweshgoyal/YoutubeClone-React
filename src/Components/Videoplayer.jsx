@@ -3,11 +3,9 @@ import { useLocation } from "react-router-dom";
 import "../css/VideoPlayer.css";
 function Videoplayer() {
   const data = useLocation();
-  console.log(data , "-------------------")
   let VideoSrc = "https://www.youtube.com/embed/";
     
   VideoSrc += data.pathname.split("/")[2] + "?autoplay=1"; 
-  console.log(VideoSrc);
   return (
     <div className="videoPlayer" >
       <div className="videoFrame">

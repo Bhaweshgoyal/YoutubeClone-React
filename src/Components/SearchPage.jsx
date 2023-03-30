@@ -1,11 +1,15 @@
 import TuneOutlinedIcon from "@mui/icons-material/TuneOutlined";
 import ChannelRow from "./ChannelRow";
-import React from "react";
+import React, { useContext } from "react";
 import "../css/SearchPage.css";
 import VideoRow from "./VideoRow";
+import { sideBarEffects } from "../utils/CommonUtils";
 function SearchPage() {
+  const sideBarEffect = useContext(sideBarEffects)
+  const {IsSideBar} = sideBarEffect
+  let searchPageStyle = IsSideBar === 'flex' ? '20px 20px' : '2% 10% 0 10%'
   return (
-    <div className="searchPage">
+    <div className="searchPage" style={{'padding' : searchPageStyle}}>
       <div className="searchPage_filter">
         <TuneOutlinedIcon />
         <h6>FILTER</h6>
