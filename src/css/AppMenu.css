@@ -19,8 +19,14 @@ hr {
     overflow: hidden;
     border: 1px solid black;
     border-top-right-radius:0;
-}
+    border-bottom-right-radius:0;
 
+}
+div ::-webkit-scrollbar-track {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
 .AppMenu:hover {
     overflow-y:scroll;
 }
