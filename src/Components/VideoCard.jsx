@@ -12,7 +12,8 @@ function VideoCard({
   views,
   timestamp,
   channelImg,
-  thumbnailVideo
+  thumbnailVideo,
+  theme
 }) {
   const [isClicked, setisClicked] = useState(false);
   function handelClick() {
@@ -45,7 +46,7 @@ function VideoCard({
         <div className="video_info">
           <Avatar className="videoCard_avatar" alt={channel} src={channelImg} />
           <div className="videoCard_text">
-            <h4>{title}</h4>
+            <h4 style={{color : theme === "black" ? "white" : "black"}}>{title}</h4>
             <p>{channel}</p>
             <p>
               {views} &#8226; {timestamp}
