@@ -11,12 +11,13 @@ import video7 from "../videoComponent/video7.mp4";
 import video8 from "../videoComponent/video8.mp4";
 import video9 from "../videoComponent/video9.mp4";
 import video10 from "../videoComponent/video10.mp4";
-function RecommendedVideos() {
+function RecommendedVideos({theme}) {
   return (
-    <div className="recommendedVideos">
+    <div className="recommendedVideos" style={{color:theme === "black" ? "white" : "black" , backgroundColor :theme}}>
       <h2>Recommended</h2>
       <div className="recommendedVideos_video">
         <VideoCard
+        
           channelImg="https://yt3.ggpht.com/mhxgIApy5kRlL_Bf-3U0QGcQpDxGAzFWCqy1ubhw5FUf6Z_JkZN6EY3m0MpUxQzqCAGxofgmBw=s68-c-k-c0x00ffffff-no-rj"
           title="Way to Live"
           views="2.7M Views"

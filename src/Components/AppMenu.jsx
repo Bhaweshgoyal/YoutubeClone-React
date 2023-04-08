@@ -13,9 +13,13 @@ import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
 import LanguageIcon from "@mui/icons-material/Language";
 import KeyboardIcon from "@mui/icons-material/Keyboard";
 import { Link } from "react-router-dom";
-function AppMenu({ display }) {
+function AppMenu({ display , theme ,settheme }) {
+  function handelTheme () {
+    let newTheme  = theme === "black" ? "whitesmoke" : "black"
+    settheme(newTheme)
+  }
   return (
-    <div className="AppMenu" style={{ display: display }}>
+    <div className="AppMenu" style={{ display: display , backgroundColor:theme , color : theme === "black" ? "white" : "black" }}>
       <div className="top-Content">
         <Avatar
           src="https://yt3.ggpht.com/yti/AHXOFjX7jeaN8JH4Z4H0TYx_xrZ4NkoiC1hP8Cqq-hn3Nw=s88-c-k-c0x00ffffff-no-rj-mo"
@@ -26,11 +30,11 @@ function AppMenu({ display }) {
           <h3>Bhawesh Goyal</h3>
           <h5>@bhaweshgoyal6874</h5>
           <Link to={"/"}>
-          <a href="/">Manage your Google Account</a>
+          Manage your Google Account
           </Link>
         </div>
       </div>
-      <hr />
+      <hr style = {{borderColor : theme==="black" ? "white" : "black"}} />
       <div className="nextContentDiv">
         <AccountCircleIcon className="icon" />
         <h5>Your Channel</h5>
@@ -47,7 +51,7 @@ function AppMenu({ display }) {
         <ExitToAppIcon className="icon" />
         <h5>Sign out</h5>
       </div>
-      <hr />
+      <hr style = {{borderColor : theme==="black" ? "white" : "black"}} />
       <div className="nextContentDiv">
         <CurrencyExchangeIcon className="icon" />
         <h5>Purchases and memberships</h5>
@@ -56,10 +60,10 @@ function AppMenu({ display }) {
         <FolderSharedIcon className="icon" />
         <h5>Your Data in Youtube</h5>
       </div>
-      <hr />
-      <div className="nextContentDiv">
+      <hr style = {{borderColor : theme==="black" ? "white" : "black"}} />
+      <div className="nextContentDiv" onClick={handelTheme}>
         <ModeNightIcon className="icon" />
-        <h5>Appearance : Light</h5>
+        <h5>Appearance : {theme === "black" ? "Dark" : "Light"}</h5>
       </div>
       <div className="nextContentDiv">
         <TranslateIcon className="icon" />

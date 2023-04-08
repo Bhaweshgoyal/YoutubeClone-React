@@ -12,10 +12,11 @@ import ExpandMoreOutLinedIcon from "@mui/icons-material/ExpandMoreOutlined"
 import { sideBarEffects } from "../utils/CommonUtils";
 import "../css/sidebar.css";
 
-function Sidebar() {
+function Sidebar({theme}) {
   const sideBarStyle = useContext(sideBarEffects)
   return (
-    <div className="sidebar" style={{display : sideBarStyle.IsSideBar}}>
+    
+    <div className="sidebar" style={{display : sideBarStyle.IsSideBar , backgroundColor:theme , color : theme === "black" ? "white" : "black"}}>
       <SidebarRow selected={true} Icon={HomeIcon} title="Home" />
       <SidebarRow Icon={WhatshotIcon} title="Trending" />
       <SidebarRow Icon={SubscriptionIcon} title="Subscription" />

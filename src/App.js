@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Headers from "./Components/Headers";
 import SearchPage from "./Components/SearchPage";
@@ -10,20 +10,25 @@ import { sideBarEffects } from "./utils/CommonUtils";
 import AppMenu from "./Components/AppMenu";
 function App() {
   const [IsSideBar, setIsSideBar] = useState("flex");
-  const [IsMenuSection , setIsMenuSection] = useState("none")
+  const [IsMenuSection, setIsMenuSection] = useState("none");
+  const [Theme, setTheme] = useState("dark");
   return (
-    <sideBarEffects.Provider value={{IsSideBar, setIsSideBar}}>
+    <sideBarEffects.Provider value={{ IsSideBar, setIsSideBar }}>
       <div className="app">
         <Router>
-          <Headers MenuSectionFunc = {setIsMenuSection} MEnuSectionDisplay = {IsMenuSection}  />
-          <AppMenu display={IsMenuSection}/>
+          <Headers
+            MenuSectionFunc={setIsMenuSection}
+            MEnuSectionDisplay={IsMenuSection}
+            theme = {Theme}
+          />
+          <AppMenu display={IsMenuSection} settheme = {setTheme} theme = {Theme}/>
           <Routes>
             <Route>
               <Route
                 path="/youtube/:clickedVideo"
                 element={
                   <div className="app_page">
-                    <Videoplayer />
+                    <Videoplayer theme = {Theme} />
                   </div>
                 }
               />
@@ -31,8 +36,8 @@ function App() {
                 path="/search/:searchTerm"
                 element={
                   <div className="app_page">
-                    <Sidebar />
-                    <SearchPage />
+                    <Sidebar theme = {Theme} />
+                    <SearchPage  theme = {Theme}/>
                   </div>
                 }
               />
@@ -40,8 +45,8 @@ function App() {
                 path="/"
                 element={
                   <div className="app_page">
-                    <Sidebar />
-                    <RecommendedVideos />
+                    <Sidebar theme={Theme}/>
+                    <RecommendedVideos theme = {Theme} />
                   </div>
                 }
               />

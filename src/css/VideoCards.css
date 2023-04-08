@@ -6,7 +6,6 @@
   margin-bottom: 40px;
   cursor: pointer;
   padding: 1%;
-  box-shadow: 0 0 16px rgb(202 211 227 / 60%);
 }
 .videoCard video {
   pointer-events: none;
