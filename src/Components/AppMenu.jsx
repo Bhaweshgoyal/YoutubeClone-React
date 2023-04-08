@@ -28,7 +28,7 @@ function AppMenu({ display }) {
         </div>
       </div>
       <hr />
-      <div className="nextContentDiv">
+      {/* <div className="nextContentDiv">
         <div className="MenuIcons">
           <AccountCircleIcon className="icon" />
           <GroupIcon className="icon" />
@@ -69,6 +69,52 @@ function AppMenu({ display }) {
           <h5>Location : India</h5>
           <h5>Keyboard Shortcuts</h5>
         </div>
+      </div> */}
+      <div className="nextContentDiv">
+      <AccountCircleIcon className= "icon"/>
+      <h5>Your Channel</h5>
+      </div>
+      <div className="nextContentDiv">
+        <GroupIcon className= "icon"/>
+        <h5>Youtube Studio</h5>
+      </div>
+      <div className="nextContentDiv">
+      <SwitchAccountIcon className= "icon"/>
+      <h5>Switch Account</h5>
+      </div>
+      <div className="nextContentDiv">
+        <ExitToAppIcon className= "icon"/>
+        <h5>Sign out</h5>
+      </div>
+      <hr />
+      <div className="nextContentDiv">
+      <CurrencyExchangeIcon className= "icon"/>
+      <h5>Purchases and memberships</h5>
+      </div>
+      <div className="nextContentDiv">
+      <FolderSharedIcon className= "icon"/>
+      <h5>Your Data in Youtube</h5>      
+      </div>
+      <hr />
+      <div className="nextContentDiv">
+        <ModeNightIcon className= "icon"/>
+        <h5>Appearance : Light</h5>
+      </div>
+      <div className="nextContentDiv">
+        <TranslateIcon className= "icon"/>
+        <h5>Language : {"ENGLISH"}</h5>        
+      </div>
+      <div className="nextContentDiv">
+      <PhonelinkLockIcon className= "icon"/>
+      <h5>Restricted Mode : {"OFF"}</h5>
+      </div>
+      <div className="nextContentDiv">
+        <LanguageIcon className="icon"/>
+        <h5>Location : India</h5>
+      </div>
+      <div className="nextContentDiv">
+        <KeyboardIcon className= "icon"/>
+        <h5>Keyboard Shortcuts</h5>
       </div>
     </div>
   );

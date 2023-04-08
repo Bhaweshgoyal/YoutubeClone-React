@@ -3,7 +3,6 @@ hr {
     padding: 0;
     border: 1px solid black;
 }
-/* style={{overflowY:"scroll" , height:"80vh" , backgroundColor : "grey"}} */
 .AppMenu{
     margin-top: -40px;
     right: 7%;
@@ -13,12 +12,17 @@ hr {
     position: fixed;
     top: 10;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 50px;
     height:80vh ;
     width: 300px;
     gap: 20px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-top-right-radius:0;
+}
+
+.AppMenu:hover {
     overflow-y:scroll;
-    overflow-x:hidden;
 }
 .left-top-content{
     height: max-content;
@@ -42,23 +46,19 @@ hr {
 .nextContentDiv{
     display: flex;
     padding-left: 10%;
-    /* margin-top: 1rem; */
     align-content: center;
+    cursor: pointer;
+    padding: 5%;
 }
 .nextContentDiv h5 {
     font-size:100%;
 }
-.MenuIcons{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.nextContentDiv h5 {
+    margin-left: 10px;
 }
-
-.content{
-    /* margin-left: 15px; */
-    cursor: pointer;
-    margin: 3%  10% 0 10% ;
+.nextContentDiv:hover {
+    background-color: lightgray;
 }
-.MenuIcons .icon {
-   margin: 10%;
+.nextContentDiv:hover > .icon {
+    color: red;
 }

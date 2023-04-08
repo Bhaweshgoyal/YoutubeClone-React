@@ -16,6 +16,7 @@ function App() {
       <div className="app">
         <Router>
           <Headers MenuSectionFunc = {setIsMenuSection} MEnuSectionDisplay = {IsMenuSection}  />
+          <AppMenu display={IsMenuSection}/>
           <Routes>
             <Route>
               <Route
@@ -41,7 +42,6 @@ function App() {
                   <div className="app_page">
                     <Sidebar />
                     <RecommendedVideos />
-                    <AppMenu display={IsMenuSection}/>
                   </div>
                 }
               />
