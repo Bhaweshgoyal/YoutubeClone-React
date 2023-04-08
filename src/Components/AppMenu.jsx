@@ -12,6 +12,7 @@ import TranslateIcon from "@mui/icons-material/Translate";
 import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
 import LanguageIcon from "@mui/icons-material/Language";
 import KeyboardIcon from "@mui/icons-material/Keyboard";
+import { Link } from "react-router-dom";
 function AppMenu({ display }) {
   return (
     <div className="AppMenu" style={{ display: display }}>
@@ -24,7 +25,9 @@ function AppMenu({ display }) {
         <div className="left-top-content">
           <h3>Bhawesh Goyal</h3>
           <h5>@bhaweshgoyal6874</h5>
+          <Link to={"/"}>
           <a href="/">Manage your Google Account</a>
+          </Link>
         </div>
       </div>
       <hr />
