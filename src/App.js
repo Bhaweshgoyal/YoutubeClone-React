@@ -10,7 +10,7 @@ import { sideBarEffects } from "./utils/CommonUtils";
 import AppMenu from "./Components/AppMenu";
 function App() {
   const [IsSideBar, setIsSideBar] = useState("flex");
-  const [IsMenuSection , setIsMenuSection] = useState("")
+  const [IsMenuSection , setIsMenuSection] = useState("none")
   return (
     <sideBarEffects.Provider value={{IsSideBar, setIsSideBar}}>
       <div className="app">
