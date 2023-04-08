@@ -8,13 +8,18 @@ import AppsIcon from "@mui/icons-material/Apps";
 import NotificationIcon from "@mui/icons-material/Notifications";
 import { Avatar } from "@mui/material";
 import { Link } from "react-router-dom";
-function Headers() {
+function Headers({MenuSectionFunc , MEnuSectionDisplay}) {
   const [inputSearch, setInputSearch] = useState("");
   
   const sideBarEffect = useContext(sideBarEffects);
   function handelSideBarEffects() {
     let newStyle = sideBarEffect.IsSideBar === "flex" ? 'none' : 'flex'
     sideBarEffect.setIsSideBar(newStyle);
+  }
+
+  function handelClickForMenuSection() {
+    let newDisplay = MEnuSectionDisplay === "" ? "none" : ""
+    MenuSectionFunc(newDisplay)
   }
 
   return (
@@ -43,13 +48,14 @@ function Headers() {
       </div>
 
       <div className="header_icons">
-        <VideoCallIcon className="header_icon" />
-        <AppsIcon className="header_icon" />
-        <NotificationIcon className="header_icon" />
+        <VideoCallIcon className="header_icon videoIcon"/>
+        <AppsIcon className="header_icon appIcon" />
+        <NotificationIcon className="header_icon notificationIcon" />
         <Avatar
           src="https://yt3.ggpht.com/yti/AHXOFjX7jeaN8JH4Z4H0TYx_xrZ4NkoiC1hP8Cqq-hn3Nw=s88-c-k-c0x00ffffff-no-rj-mo"
           alt="bhawesh goyal"
-          className="header_icon"
+          className="header_icon avatar"
+          onClick={handelClickForMenuSection}
         />
       </div>
     </div>

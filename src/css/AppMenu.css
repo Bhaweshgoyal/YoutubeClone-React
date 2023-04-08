@@ -1,0 +1,64 @@
+hr {
+    margin:  1% ;
+    padding: 0;
+    border: 1px solid black;
+}
+/* style={{overflowY:"scroll" , height:"80vh" , backgroundColor : "grey"}} */
+.AppMenu{
+    margin-top: -40px;
+    right: 7%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10;
+    background-color: white;
+    border-radius: 10px;
+    height:80vh ;
+    width: 300px;
+    gap: 20px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.left-top-content{
+    height: max-content;
+    margin-left: 10%;
+}
+.top-Content {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.top-Content  h3 {
+    font-size: 20px;
+}
+.top-Content h5 {
+    font-size: 17px;
+}
+.top-Content a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.nextContentDiv{
+    display: flex;
+    padding-left: 10%;
+    /* margin-top: 1rem; */
+    align-content: center;
+}
+.nextContentDiv h5 {
+    font-size:100%;
+}
+.MenuIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.content{
+    /* margin-left: 15px; */
+    cursor: pointer;
+    margin: 3%  10% 0 10% ;
+}
+.MenuIcons .icon {
+   margin: 10%;
+}

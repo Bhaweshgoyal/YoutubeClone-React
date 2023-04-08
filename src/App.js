@@ -7,14 +7,15 @@ import Sidebar from "./Components/Sidebar";
 import Videoplayer from "./Components/Videoplayer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { sideBarEffects } from "./utils/CommonUtils";
+import AppMenu from "./Components/AppMenu";
 function App() {
   const [IsSideBar, setIsSideBar] = useState("flex");
-  
+  const [IsMenuSection , setIsMenuSection] = useState("")
   return (
     <sideBarEffects.Provider value={{IsSideBar, setIsSideBar}}>
       <div className="app">
         <Router>
-          <Headers />
+          <Headers MenuSectionFunc = {setIsMenuSection} MEnuSectionDisplay = {IsMenuSection}  />
           <Routes>
             <Route>
               <Route
@@ -40,6 +41,7 @@ function App() {
                   <div className="app_page">
                     <Sidebar />
                     <RecommendedVideos />
+                    <AppMenu display={IsMenuSection}/>
                   </div>
                 }
               />

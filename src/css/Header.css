@@ -5,6 +5,7 @@
   padding: 20px;
   position: sticky;
   background-color: white;
+  border : 0.1px solid lightgray;
   top :0 ;
   z-index: 100; 
   height: 100%;
@@ -25,6 +26,9 @@
 .header_icon {
   margin-right: 15px;
 }
+.appIcon{
+  cursor: pointer;
+}
 .header_icons {
   display: flex;
   align-items: center;
@@ -39,4 +43,26 @@
 .header_input > input {
   flex: 1;
   border: none;
+  width: 100%;
+}
+.avatar{
+  cursor: pointer;
+}
+@media (max-width : 740px) {
+  .header {
+    width: max-content;
+  }
+  .videoIcon{
+    display:none !important
+  }
+  .appIcon{
+    display: none !important;
+  }
+  .notificationIcon{
+    display: none !important;
+  }
+  .avatar{
+    display: none !important;
+  }
+
 }
