@@ -27,7 +27,8 @@ function App() {
               <Route
                 path="/youtube/:clickedVideo"
                 element={
-                  <div className="app_page">
+                  <div className="videoplayer">
+                    <Sidebar theme = {Theme} />
                     <Videoplayer theme = {Theme} />
                   </div>
                 }

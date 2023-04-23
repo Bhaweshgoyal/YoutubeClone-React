@@ -6,12 +6,15 @@
 }
 
 .recommendedVideos >h2 {
-    margin-left: 5px;
-    margin-bottom: 20px;
+    /* margin-left: 5px; */
+    text-align:left ;
+    margin-left: 10%;
+    margin-bottom: 10px;
 }
 
 .recommendedVideos_video {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }

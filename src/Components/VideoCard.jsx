@@ -26,18 +26,19 @@ function VideoCard({
   // {pathname : `/youtube/${VideoSrc.split("/")[4]}` , state : {data : "hellosiri"}}
   //
   return (
+    <Link
+        to={`/youtube/${VideoSrc.split("/")[4]}`}
+        state={{
+          data: {title, channel, subs: subs, views, channelImg, timestamp },
+        }}
+        style={{ textDecoration: "none", color: "black" }}
+      >
     <div
       className="videoCard"
       onMouseOver={handelClick}
       onMouseOut={handelHover}
     >
-      <Link
-        to={`/youtube/${VideoSrc.split("/")[4]}`}
-        state={{
-          data: { title, channel, subs: subs, views, channelImg, timestamp },
-        }}
-        style={{ textDecoration: "none", color: "black" }}
-      >
+      
         {isClicked ? (
           <video src={thumbnailVideo} width={245} height={163} style={{objectFit:"fill"}}  autoPlay muted />
         ) : (
@@ -53,8 +54,8 @@ function VideoCard({
             </p>
           </div>
         </div>
-      </Link>
     </div>
+    </Link>
   );
 }
 
