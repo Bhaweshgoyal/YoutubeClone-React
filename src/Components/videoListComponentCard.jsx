@@ -1,7 +1,7 @@
 import React from 'react'
 import "../css/videoListComponentCard.css"
 function VideoListComponentCard({days,views,channelname ,imgsrc,heading , theme}) {
-    let textColor =  theme == "black" ? "white " : "black"
+    let textColor =  theme === "black" ? "white " : "black"
   return (
     <div className='videoCardList'style={{backgroundColor : theme }} >
         <div className="card" style={{backgroundColor : theme }}>
