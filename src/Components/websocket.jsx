@@ -34,8 +34,8 @@ const WebSocketComponent = () => {
 
   useEffect(() => {
     if(!apiResponse) return
-    console.log("url",`newWebSocket://aae5-124-123-24-242.ngrok-free.app/api/v1/?token=${apiResponse?.data}`);
-    const newWebSocket = new WebSocket("newWebSocket://aae5-124-123-24-242.ngrok-free.app/api/v1/?token="+apiResponse?.data);
+    console.log("url",`ws://aae5-124-123-24-242.ngrok-free.app/api/v1/?token=${apiResponse?.data}`);
+    const newWebSocket = new WebSocket("ws://aae5-124-123-24-242.ngrok-free.app/api/v1/?token="+apiResponse?.data);
     
     newWebSocket.onopen = () => {
       console.log('WebSocket connected');
