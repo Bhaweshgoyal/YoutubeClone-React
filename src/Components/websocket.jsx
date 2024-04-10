@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios'
 const WebSocketComponent = () => {
   const [messages, setMessages] = useState([]);
-  const [ws, setWs] = useState(null);
+  const [newWebSocket, setWs] = useState(null);
   const [apiResponse , apiResponseSet] = useState(null);
 
   useEffect(() => {
@@ -34,8 +34,8 @@ const WebSocketComponent = () => {
 
   useEffect(() => {
     if(!apiResponse) return
-    console.log("url",`ws://aae5-124-123-24-242.ngrok-free.app/api/v1/?token=${apiResponse?.data}`);
-    const newWebSocket = new WebSocket("ws://aae5-124-123-24-242.ngrok-free.app/api/v1/?token="+apiResponse?.data);
+    console.log("url",`newWebSocket://aae5-124-123-24-242.ngrok-free.app/api/v1/?token=${apiResponse?.data}`);
+    const newWebSocket = new WebSocket("newWebSocket://aae5-124-123-24-242.ngrok-free.app/api/v1/?token="+apiResponse?.data);
     
     newWebSocket.onopen = () => {
       console.log('WebSocket connected');
@@ -56,15 +56,15 @@ const WebSocketComponent = () => {
 
     // Cleanup WebSocket connection on unmount
     return () => {
-      if (ws) {
-        ws.close();
+      if (newWebSocket) {
+        newWebSocket.close();
       }
     };
   }, [apiResponse]);
 
   const sendMessage = (message) => {
-    if (ws && ws.readyState === WebSocket.OPEN) {
-      ws.send(JSON.stringify(message));
+    if (newWebSocket && newWebSocket.readyState === WebSocket.OPEN) {
+      newWebSocket.send(JSON.stringify(message));
     } else {
       console.log('WebSocket not connected');
     }
