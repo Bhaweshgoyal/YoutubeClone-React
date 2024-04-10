@@ -8,12 +8,14 @@ import Videoplayer from "./Components/Videoplayer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { sideBarEffects } from "./utils/CommonUtils";
 import AppMenu from "./Components/AppMenu";
+import WebSocketComponent from "./Components/websocket";
 function App() {
   const [IsSideBar, setIsSideBar] = useState("flex");
   const [IsMenuSection, setIsMenuSection] = useState("none");
   const [Theme, setTheme] = useState("dark");
   return (
     <sideBarEffects.Provider value={{ IsSideBar, setIsSideBar }}>
+      <WebSocketComponent/>
       <div className="app">
         <Router>
           <Headers
